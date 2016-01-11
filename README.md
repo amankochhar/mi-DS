@@ -16,3 +16,13 @@ keywords: {knowledge based systems;learning (artificial intelligence);pattern cl
 
 Repository - 
 http://archive.ics.uci.edu/ml/datasets/Musk+%28Version+1%29
+
+I used MATLAB R2015a (8.5.0.197613) Pro for this project.
+
+Step-by-step guide to run the code: -
+
+1.	Run the ‘arff_to_xsls.m’ to convert the *arff file to an *xlsx format.
+2.	Convert both the training and the test data to *xlsx format.
+3.	Run ‘mi-DS.m’
+4.	Select the training file we converted to excel.
+5.	Next select the test data to check the result, And compare the test bag with the similarity matrix from the training bags
